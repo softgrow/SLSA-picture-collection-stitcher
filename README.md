@@ -29,7 +29,7 @@ the prompt, type:
 using IJulia
 notebook()
 ```</li>
-<li>Load the notebook</li>
+<li>Load the notebook. If you get kernel errors, edit the Notebook Kernel to the version of Julia you installed.</li>
 <li>Alter the "B+..." cell to the one you wish to download</li>
 <li>Run the notebook</li>
 </ol>
