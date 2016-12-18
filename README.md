@@ -7,4 +7,29 @@ button in the top right corner you can see the whole image at the highest resolu
 script automates the downloading and stitching of tiles
 
 ## Requirements
-* Imagemagick installed and on your path, particularly the montage program.
+### Julia
+Download and install *version 0.4 or later* from http://julialang.org/downloads/
+### IJulia
+Run the Julia application
+(double-click on it); a window with a `julia>` prompt will appear.  At
+the prompt, type:
+```
+Pkg.add("IJulia")
+```
+to install IJulia. Wait a while for prerequesities to be downloaded and installed.
+### Imagemagick 
+Installed and on your path, particularly the montage program. Homebrew is an easy way of doing this for OSX.
+
+## Running
+<ol><li>Start Julia
+Run the Julia application
+(double-click on it); a window with a `julia>` prompt will appear.  At
+the prompt, type:
+```
+using IJulia
+notebook()
+```</li>
+<li>Load the notebook</li>
+<li>Alter the "B+..." cell to the one you wish to download</li>
+<li>Run the notebook</li>
+</ol>
