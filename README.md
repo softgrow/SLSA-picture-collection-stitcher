@@ -26,10 +26,12 @@ Installed and on your path, particularly the montage program. Homebrew is an eas
 Run the Julia application
 (double-click on it); a window with a `julia>` prompt will appear.  At
 the prompt, type:
+  
 ```
 using IJulia
 notebook()
-```</li>
+```
+</li>
 <li>Load the notebook. If you get kernel errors, edit the Notebook Kernel to the version of Julia you installed.</li>
 <li>Alter the "B+..." cell to the one you wish to download</li>
 <li>Run the notebook</li>
