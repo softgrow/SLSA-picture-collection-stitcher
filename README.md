@@ -14,6 +14,7 @@ Run the Julia application
 (double-click on it); a window with a `julia>` prompt will appear.  At
 the prompt, type:
 ```
+using Pkg
 Pkg.add("IJulia")
 ```
 to install IJulia. Wait a while for prerequesities to be downloaded and installed.
